@@ -1,5 +1,5 @@
 echo@
-start windows powershell
+start powershell
 
 Set-Service -Name wuauserv -StartupType Automatic
 Start-Service -Name wuauserv
